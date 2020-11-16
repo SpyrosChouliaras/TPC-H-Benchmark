@@ -192,3 +192,12 @@ LOAD DATA LOCAL INFILE 'supplier.tbl' INTO TABLE SUPPLIER FIELDS TERMINATED BY '
 ```
 
 
+Check that the data have been loaded correctly to the database by running a simple query:
+
+```basH
+$mysql> DESCRIBE CUSTOMER;
+$mysql> select C_ACCTBAL from CUSTOMER where C_ACCTBAL between 1900 and 2000;
+```
+
+
+
