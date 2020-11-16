@@ -199,5 +199,9 @@ $mysql> DESCRIBE CUSTOMER;
 $mysql> select C_ACCTBAL from CUSTOMER where C_ACCTBAL between 1900 and 2000;
 ```
 
+Since you loaded the data and changed the sql queries based on SQLSERVER (see SQLSERVER queries file) then you can run a query from MySQL.
 
-
+```bash
+$ mysql> mysql -u root -p --local-infile
+$ mysql> use tpch;
+$ mysql> source /full-path-to-queries/1.sql #example to run query 1 (Q1)
