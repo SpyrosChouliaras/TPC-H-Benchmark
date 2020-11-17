@@ -4,6 +4,15 @@ Official TPC-H benchmark - http://www.tpc.org/tpch
 
 # Setup
 
+**SQLSERVER**
+
+Install SQLSERVER
+
+```bash
+sudo apt-get update
+sudo apt-get install mysql-server
+```
+
 **Linux**
 
 Make sure the required development tools are installed:
