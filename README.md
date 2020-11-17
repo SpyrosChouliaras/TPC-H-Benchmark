@@ -10,6 +10,7 @@ Install SQLSERVER
 
 ```bash
 sudo apt-get update
+sudo apt-get install mysqlclient20
 sudo apt-get install mysql-server
 ```
 
