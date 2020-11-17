@@ -14,6 +14,26 @@ sudo apt-get install mysqlclient20
 sudo apt-get install mysql-server
 ```
 
+(Optional)
+
+To allow access open and add the my.cnf file:
+
+```bash
+sudo nano /etc/mysql/my.cnf
+
+...
+...
+...
+[mysqld]
+skip-grant-tables
+```
+
+Restart MySQL
+
+```bash
+sudo systemctl restart mysql
+```
+
 **Linux**
 
 Make sure the required development tools are installed:
