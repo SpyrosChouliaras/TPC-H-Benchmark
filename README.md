@@ -10,11 +10,15 @@ Make sure the required development tools are installed:
 
 Ubuntu:
 
-sudo apt-get install git make gcc
-CentOS/RHEL:
+```bash
+sudo apt-get update
+sudo apt-get install gcc
+```
+Run the following command to see **gcc** version
 
-sudo yum install git make gcc
-
+```bash
+gcc --version
+```
 Then run the following commands to clone the repo and build the tools:
 
 ```bash
