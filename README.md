@@ -25,6 +25,12 @@ Then run the following commands to clone the repo and build the tools:
 git clone https://github.com/SpyrosChouliaras/TPC-H-Benchmark.git
 ```
 
+Also install **make**
+```bash
+sudo apt install make
+```
+
+
 Move to the dbgen directory
 
 ```bash
